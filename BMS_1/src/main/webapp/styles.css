@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #B30000; /* Red background color */
+    color: white; /* White text color */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.center {
+    width: 23%; /* Adjust width for four centers in a row */
+    background-color: white; /* White background color for center div */
+    color: #FC6736; /* Red text color */
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.center p {
+    margin: 5px 0;
+}
